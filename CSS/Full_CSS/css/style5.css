@@ -1,0 +1,44 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+
+.container{
+
+    background-color: aqua;
+    height: 1000px;
+}
+
+.box{
+
+    border: 2px solid yellow;
+    display: inline-block;
+    /* transform: translate(134px, 40px); */
+    /* transform: rotate(0.5turn); */
+    /* transform: rotate(45deg); */
+    /* transform-origin: 0 ; */
+    /* transform: scaleX(3); */
+    /* transform: scaleY(2); */
+    /* transform: scale(2); */
+
+    /* transform: skew(4deg, 6deg); */
+
+    
+    /* transform: matrix(scaleX(),skew(),scaleY(),translateX(),translateY());  add value*/
+
+    /* transform: rotateZ(45deg) */
+
+}
+
+/* img:hover{
+    width: 50px;
+} */
+
+img{
+    width: 146px;
+    transition-property: width ;
+    transition-duration: 3s;
+    transition-timing-function: ease-in;
+    transition-delay:2s;
+}

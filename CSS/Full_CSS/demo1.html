@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- External CSS -->
+    <link rel="stylesheet" href="/css/style1.css">
+
+
+    <!-- Internal CSS-->
+    <style>
+        #head{
+            color: aliceblue;
+        }
+        .mul{
+            background-color: blueviolet;
+            /* span is inline element not taking margin(following code for  span margin) */
+            position: relative;
+            top: 20px;
+        }
+        .blue{
+            color: yellow;
+        }
+        
+    </style>
+    <title>CSS</title>
+
+</head>
+<body>
+    <!-- background-red, text-white -->
+    <div class="red">
+        <p>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Error architecto optio voluptatem quibusdam, necessitatibus accusantium distinctio modi aliquid perspiciatis dolorem placeat sit nam corrupti eligendi rem, debitis fuga, repellat voluptates.
+        </p>
+    </div>
+
+    <!-- Inline CSS -->
+    <div id="head" style="margin-top: 10px;">
+        <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam temporibus ex numquam architecto autem omnis! Beatae provident ipsam est minima dolorum numquam voluptatibus similique tempora, voluptates consectetur saepe praesentium illum?
+        </p>
+    </div>
+
+    <!-- apply css on multiple element of same class(vice versa) -->
+    <p class="one">paragraph</p>
+    <section class="one">section</section>
+    <h1 class="one">heading one</h1>
+    <div class="one">div</div>
+    <article class="one">article</article>
+
+    <!-- simple element have more than one class -->
+    <span class="mul blue">Span element</span>
+
+
+    <!-- group selector -->
+    <h1>Heading 1</h1>
+    <h2>Heading 2</h2>
+    <h3>Heading 1</h3>
+    <h4>Heading 2</h4>
+    <h5>Heading 1</h5>
+    <h6>Heading 2</h6>
+
+</body>
+</html>

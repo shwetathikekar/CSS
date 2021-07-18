@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/style5.css">
+    
+    <title>Demo5</title>
+</head>
+<body>
+
+
+    <div class="container">
+        <div class="box">
+            <!-- Lorem ipsum, dolor sit amet consectetur adipisicing elit. Impedit porro culpa totam voluptatibus, earum asperiores sequi possimus! Necessitatibus quisquam, delectus ducimus nobis consequatur quibusdam aspernatur blanditiis ipsa, corporis veniam ea perspiciatis qui dicta et? -->
+            <img id=myimage src="https://source.unsplash.com/500x900/?nature,water" alt="">
+            <button id="btn">Toggle</button>
+        </div>
+    </div>
+
+
+
+
+    <script>
+        myimage.style.width='146px'
+        // myimage.style.height='16px'
+        btn.addEventListener("click",()=>{
+            // myimage.style.height='146px'
+            if(myimage.style.width==='546px'){
+                myimage.style.width ="146px";
+
+            }
+            else if(myimage.style.width==='146px'){
+                myimage.style.width ="546px";
+
+            }
+        })
+    </script>
+    
+</body>
+</html>

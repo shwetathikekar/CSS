@@ -1,0 +1,33 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+
+    background-color: darkgray;
+}
+
+div.red{
+
+    background-color: red;
+    color: white;
+}
+
+#head{
+
+    background-color: black;
+}
+
+.one{
+
+    background-color: aqua;
+    color: black;
+    margin-top: 10px;
+    border: 2px solid red;
+}
+
+h1,h2,h3,h4,h5,h6{
+    margin-top: 20px;
+    color: blue;
+}

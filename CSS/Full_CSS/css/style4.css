@@ -1,0 +1,137 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: antiquewhite;
+}
+
+.container{
+
+    display: grid;
+    height: 500px;
+    width: 100;
+    background-color: black;
+    /* grid-row-gap: 10px; */
+    grid-template-columns: auto auto auto auto;
+    grid-gap:3px 6px;
+    /* grid-template-columns: auto auto auto ;  */
+    /* grid-column-gap: 10px; */
+    /* grid-template-rows: 100px;  */
+    /* grid-column: 1/5; */
+
+}
+.imgdiv .item2{
+    background-color: aquamarine;
+    border: 2px solid red;
+    justify-content: space-around;
+    width: 25%;
+    height: 25%;
+
+} 
+
+.imgdiv .item3{
+    background-color: aquamarine;
+    border: 2px solid red;
+    justify-content: space-around;
+
+
+} 
+
+.imgdiv .item4{
+    background-color: aquamarine;
+    border: 2px solid red;
+    justify-content: center;
+
+
+} 
+
+
+.container .item1{
+
+    background-color: aquamarine;
+    border: 2px solid red;
+    grid-column: 1/5;
+
+}
+
+
+
+ul{
+    display: inline-grid;
+    grid-template-columns: auto auto auto;
+}
+
+ul li{
+
+    list-style: none;
+    margin: 0 23px;
+    padding: 20px 0;
+    font-size: 20px;
+}
+
+header{
+
+    background-color: black;
+    color: white;
+}
+
+
+
+
+
+
+
+
+
+
+
+/* .navbar{
+
+    padding: 25px;
+    background-color: black;
+    /* text-align: right; */
+    /* display: inline-grid; */
+    /* justify-content: space-between; } */
+
+
+/* .navbar .logo a{
+
+    color: white;
+    float: left;
+    font-size: 30px;
+    text-decoration: none;
+    padding: 0 20px;
+    /* text-align: left; */
+    /* display: inline-block; } */
+
+
+/* .navlist ul{
+    list-style: none;
+} */
+
+/* .navlist li{
+    display: inline-block;
+} */
+
+/* .navlist a{
+    text-decoration: none;
+    color: white;
+    float: right;
+    font-size: 20px;
+    padding: 0 20px;
+*/
+
+@media screen and ( max-width: 800px) {
+    body{
+        background-color: aqua;
+    }
+}
+
+@media screen and ( max-width: 600px) {
+    body{
+        background-color: yellow;
+    }
+}
+
